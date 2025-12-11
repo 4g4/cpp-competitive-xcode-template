@@ -43,12 +43,22 @@
 					<key>Targets</key>
 					<array>
 						<dict>
+							<key>Configurations</key>
+							<dict>
+								<key>Debug</key>
+								<dict>
+									<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+									<string>MYNOCOLOR=1 MYDEBUG=1 $(inherited)</string>
+								</dict>
+							</dict>
 							<key>TargetIdentifier</key>
 							<string>com.rugenheidbuchel.dt.competitiveProgrammingCommandLineToolTarget</string>
 							<key>ProductType</key>
 							<string>com.apple.product-type.tool</string>
 							<key>SharedSettings</key>
 							<dict>
+								<key>HEADER_SEARCH_PATHS</key>
+								<string>$(inherited) /Users/liuxueyang/competitive/header /Users/liuxueyang/cpp/header</string>
 								<key>PRODUCT_NAME</key>
 								<string>$(TARGET_NAME)</string>
 							</dict>
@@ -81,6 +91,8 @@
 							<string>com.apple.product-type.tool</string>
 							<key>SharedSettings</key>
 							<dict>
+								<key>HEADER_SEARCH_PATHS</key>
+								<string>$(inherited) /Users/liuxueyang/competitive/header /Users/liuxueyang/cpp/header</string>
 								<key>PRODUCT_NAME</key>
 								<string>$(TARGET_NAME)</string>
 							</dict>
@@ -135,6 +147,14 @@
 					<key>Targets</key>
 					<array>
 						<dict>
+							<key>Configurations</key>
+							<dict>
+								<key>Debug</key>
+								<dict>
+									<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+									<string>MYNOCOLOR=1 MYDEBUG=1 $(inherited)</string>
+								</dict>
+							</dict>
 							<key>TargetIdentifier</key>
 							<string>com.rugenheidbuchel.dt.competitiveProgrammingCommandLineToolTarget</string>
 							<key>ProductType</key>
