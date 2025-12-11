@@ -57,6 +57,8 @@
 							<string>com.apple.product-type.tool</string>
 							<key>SharedSettings</key>
 							<dict>
+								<key>CONFIGURATION_BUILD_DIR</key>
+								<string>$(PROJECT_DIR)/bin</string>
 								<key>OTHER_LDFLAGS</key>
 								<string>-fsanitize=address -fsanitize=undefined $(inherited)</string>
 								<key>OTHER_CPLUSPLUSFLAGS</key>
@@ -95,6 +97,8 @@
 							<string>com.apple.product-type.tool</string>
 							<key>SharedSettings</key>
 							<dict>
+								<key>CONFIGURATION_BUILD_DIR</key>
+								<string>$(PROJECT_DIR)/bin</string>
 								<key>OTHER_CPLUSPLUSFLAGS</key>
 								<string>-fstack-protector-all -fsanitize=address -fsanitize=undefined -Wno-unused-const-variable -Wno-unused-result $(inherited)</string>
 								<key>OTHER_LDFLAGS</key>
@@ -155,6 +159,19 @@
 					<key>Targets</key>
 					<array>
 						<dict>
+							<key>SharedSettings</key>
+							<dict>
+								<key>CONFIGURATION_BUILD_DIR</key>
+								<string>$(PROJECT_DIR)/bin</string>
+								<key>OTHER_LDFLAGS</key>
+								<string>-fsanitize=address -fsanitize=undefined $(inherited)</string>
+								<key>OTHER_CPLUSPLUSFLAGS</key>
+								<string>-fstack-protector-all -fsanitize=address -fsanitize=undefined -Wno-unused-const-variable -Wno-unused-result $(inherited)</string>
+								<key>HEADER_SEARCH_PATHS</key>
+								<string>$(inherited) /Users/liuxueyang/competitive/header /Users/liuxueyang/cpp/header</string>
+								<key>PRODUCT_NAME</key>
+								<string>$(TARGET_NAME)</string>
+							</dict>
 							<key>Configurations</key>
 							<dict>
 								<key>Debug</key>
@@ -167,11 +184,6 @@
 							<string>com.rugenheidbuchel.dt.competitiveProgrammingCommandLineToolTarget</string>
 							<key>ProductType</key>
 							<string>com.apple.product-type.tool</string>
-							<key>SharedSettings</key>
-							<dict>
-								<key>PRODUCT_NAME</key>
-								<string>$(TARGET_NAME)</string>
-							</dict>
 							<key>BuildPhases</key>
 							<array>
 								<dict>
@@ -195,15 +207,23 @@
 							</array>
 						</dict>
 						<dict>
+							<key>SharedSettings</key>
+							<dict>
+								<key>CONFIGURATION_BUILD_DIR</key>
+								<string>$(PROJECT_DIR)/bin</string>
+								<key>OTHER_LDFLAGS</key>
+								<string>-fsanitize=address -fsanitize=undefined $(inherited)</string>
+								<key>OTHER_CPLUSPLUSFLAGS</key>
+								<string>-fstack-protector-all -fsanitize=address -fsanitize=undefined -Wno-unused-const-variable -Wno-unused-result $(inherited)</string>
+								<key>HEADER_SEARCH_PATHS</key>
+								<string>$(inherited) /Users/liuxueyang/competitive/header /Users/liuxueyang/cpp/header</string>
+								<key>PRODUCT_NAME</key>
+								<string>$(TARGET_NAME)</string>
+							</dict>
 							<key>TargetIdentifier</key>
 							<string>com.rugenheidbuchel.dt.competitiveProgrammingCommandLineToolTargetUsingInputFile</string>
 							<key>ProductType</key>
 							<string>com.apple.product-type.tool</string>
-							<key>SharedSettings</key>
-							<dict>
-								<key>PRODUCT_NAME</key>
-								<string>$(TARGET_NAME)</string>
-							</dict>
 							<key>BuildPhases</key>
 							<array>
 								<dict>
@@ -237,15 +257,23 @@
 							</dict>
 						</dict>
 						<dict>
+							<key>SharedSettings</key>
+							<dict>
+								<key>CONFIGURATION_BUILD_DIR</key>
+								<string>$(PROJECT_DIR)/bin</string>
+								<key>OTHER_LDFLAGS</key>
+								<string>-fsanitize=address -fsanitize=undefined $(inherited)</string>
+								<key>OTHER_CPLUSPLUSFLAGS</key>
+								<string>-fstack-protector-all -fsanitize=address -fsanitize=undefined -Wno-unused-const-variable -Wno-unused-result $(inherited)</string>
+								<key>HEADER_SEARCH_PATHS</key>
+								<string>$(inherited) /Users/liuxueyang/competitive/header /Users/liuxueyang/cpp/header</string>
+								<key>PRODUCT_NAME</key>
+								<string>$(TARGET_NAME)</string>
+							</dict>
 							<key>TargetIdentifier</key>
 							<string>com.rugenheidbuchel.dt.competitiveProgrammingCommandLineToolTargetUsingInputAndOutputFile</string>
 							<key>ProductType</key>
 							<string>com.apple.product-type.tool</string>
-							<key>SharedSettings</key>
-							<dict>
-								<key>PRODUCT_NAME</key>
-								<string>$(TARGET_NAME)</string>
-							</dict>
 							<key>BuildPhases</key>
 							<array>
 								<dict>
