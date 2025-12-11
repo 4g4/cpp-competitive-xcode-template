@@ -2,41 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Targets</key>
-	<array>
-		<dict>
-			<key>TargetIdentifier</key>
-			<string>com.rugenheidbuchel.dt.competitiveProgrammingCommandLineToolTarget</string>
-			<key>ProductType</key>
-			<string>com.apple.product-type.tool</string>
-			<key>SharedSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>BuildPhases</key>
-			<array>
-				<dict>
-					<key>Class</key>
-					<string>Sources</string>
-				</dict>
-				<dict>
-					<key>Class</key>
-					<string>Frameworks</string>
-				</dict>
-				<dict>
-					<key>DstPath</key>
-					<string></string>
-					<key>DstSubfolderSpec</key>
-					<string>16</string>
-					<key>RunOnlyForDeploymentPostprocessing</key>
-					<string>NO</string>
-					<key>Class</key>
-					<string>CopyFiles</string>
-				</dict>
-			</array>
-		</dict>
-	</array>
 	<key>Nodes</key>
 	<array>
 		<string>main.cpp</string>
@@ -147,7 +112,7 @@
 								<key>Debug</key>
 								<dict>
 									<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-									<string>USE_INPUT_FILE=1 $(inherited)</string>
+									<string>MYNOCOLOR=1 MYDEBUG=1 USE_INPUT_FILE=1 $(inherited)</string>
 								</dict>
 							</dict>
 						</dict>
@@ -239,7 +204,7 @@
 								<key>Debug</key>
 								<dict>
 									<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-									<string>USE_INPUT_FILE=1 $(inherited)</string>
+									<string>MYNOCOLOR=1 MYDEBUG=1 USE_INPUT_FILE=1 $(inherited)</string>
 								</dict>
 							</dict>
 						</dict>
@@ -281,7 +246,7 @@
 								<key>Debug</key>
 								<dict>
 									<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-									<string>USE_INPUT_FILE=1 USE_OUTPUT_FILE=1 $(inherited)</string>
+									<string>MYNOCOLOR=1 MYDEBUG=1 USE_INPUT_FILE=1 USE_OUTPUT_FILE=1 $(inherited)</string>
 								</dict>
 							</dict>
 						</dict>
