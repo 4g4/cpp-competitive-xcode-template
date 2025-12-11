@@ -57,6 +57,10 @@
 							<string>com.apple.product-type.tool</string>
 							<key>SharedSettings</key>
 							<dict>
+								<key>OTHER_LDFLAGS</key>
+								<string>-fsanitize=address -fsanitize=undefined $(inherited)</string>
+								<key>OTHER_CPLUSPLUSFLAGS</key>
+								<string>-fstack-protector-all -fsanitize=address -fsanitize=undefined -Wno-unused-const-variable -Wno-unused-result $(inherited)</string>
 								<key>HEADER_SEARCH_PATHS</key>
 								<string>$(inherited) /Users/liuxueyang/competitive/header /Users/liuxueyang/cpp/header</string>
 								<key>PRODUCT_NAME</key>
@@ -91,6 +95,10 @@
 							<string>com.apple.product-type.tool</string>
 							<key>SharedSettings</key>
 							<dict>
+								<key>OTHER_CPLUSPLUSFLAGS</key>
+								<string>-fstack-protector-all -fsanitize=address -fsanitize=undefined -Wno-unused-const-variable -Wno-unused-result $(inherited)</string>
+								<key>OTHER_LDFLAGS</key>
+								<string>-fsanitize=address -fsanitize=undefined $(inherited)</string>
 								<key>HEADER_SEARCH_PATHS</key>
 								<string>$(inherited) /Users/liuxueyang/competitive/header /Users/liuxueyang/cpp/header</string>
 								<key>PRODUCT_NAME</key>
