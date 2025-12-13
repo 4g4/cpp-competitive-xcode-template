@@ -24,3 +24,6 @@ This template behaves as the `Input` type template, but it adds several input fi
 
 # Installation
 To install the template(s), simply move the encolsing directory to `~/Library/Developer/Xcode/Templates/Project Templates/Competitive/`. If it does not exist yet, you'll have to create it. The easiest way to keep the templates up to date is to clone this repository in that directory (so that the contents reside in the `Competitive` directory).
+
+# What this fork fixes
+- In Xcode 26, there are two "Compile Sources" and "Link Binary With Libraries" in the target which causes the build failed. This fork fixes the bug.
